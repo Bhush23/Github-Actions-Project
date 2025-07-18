@@ -115,7 +115,6 @@ jobs:
         context: .
         push: true
         tags: Bhush23/bankapp:latest
-        file: ./Dockerfile
 
     - name: Gitleaks Installation
       run: sudo apt install gitleaks -y
